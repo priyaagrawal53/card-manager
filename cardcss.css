@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.first{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        padding: 70px;
+    background-image: url(bg.jpg);
+    background-size: 150%;
+
+    
+}
+ .first li, button{
+    padding: 30px;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    list-style-type: none;
+    background-color:white;
+    opacity: 70%;
+    margin: 40px 900px;
+    width: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+  
+
+.first ul li:hover{
+    opacity: 100%;
+    color:red;
+}
